@@ -1,4 +1,4 @@
-## Final Project Report
+# Final Project Report
 
 📊 Final Project Report: Sales Data Analysis 
 📝 Project Title: Exploratory Data Analysis and Predictive Modeling on Global Sales Records
