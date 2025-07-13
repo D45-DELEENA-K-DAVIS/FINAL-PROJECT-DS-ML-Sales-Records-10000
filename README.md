@@ -28,13 +28,13 @@ Total Revenue - Total revenue = Units Sold × Unit Price
 Total Cost - Total cost = Units Sold × Unit Cost 
 Total Profit - Total profit = Total Revenue - Total Cost
 
-# 2. 🔍 Data Preprocessing
+## 2. 🔍 Data Preprocessing
 
 Converted Order Date and Ship Date to datetime format Checked for missing values Filtered only numeric columns for machine learning models Encoded target variables where needed (e.g., using LabelEncoder for classification)
-# 3. 📈 Exploratory Data Analysis (EDA)
+## 3. 📈 Exploratory Data Analysis (EDA)
 
 Top Selling Regions: Identified which regions generated the most revenue Sales Channel Analysis: Compared online vs offline performance Item Type Trends: Found most and least profitable item types Scatter Plot: Total Cost vs Total Profit to explore linearity Correlation Heatmap: Identified relationships between numeric variables
-# 4. 🧠 Predictive Modeling
+## 4. 🧠 Predictive Modeling
 
 Supervised Learning (Classification): Target Variable: Unit Price (encoded into classes) Features: All other numeric features
 
@@ -48,22 +48,22 @@ Models used:
 
 ✅ Accuracy Comparison: Model Accuracy Decision Tree 1.000 Random Forest 1.000 Gradient Boosting 1.000 Logistic Regression 0.9728 K-Nearest Neighbors 0.5899
 
-# 5.🔍 Best Model:
+## 5.🔍 Best Model:
 
 Random Forest and Gradient Boosting performed best with 100% accuracy, suggesting very high predictive power — though overfitting needs to be ruled out with cross-validation.
-# 6. 📊 Unsupervised Learning (Clustering)
+## 6. 📊 Unsupervised Learning (Clustering)
 
 Used K-Means Clustering with Elbow Method to find optimal number of clusters Applied PCA for 2D visualization of clusters Found distinct groups based on cost and profit features
-# 7. 🎯 Key Insights
+## 7. 🎯 Key Insights
 
 Sales vary significantly by region and item type Profit is directly influenced by unit cost and price Ensemble models outperform others in classification tasks KNN underperformed — not suitable for this dataset without tuning
-# 8. 📌 Recommendations
+## 8. 📌 Recommendations
 
 Use ensemble models like Random Forest for profit prediction Segment marketing by region and item type for maximum profit Consider revisiting underperforming products or regions
-# 9. 📁 Future Improvements
+## 9. 📁 Future Improvements
 
 Add temporal analysis (monthly trends) Use cross-validation for better generalization Incorporate external features like promotions or seasonal data
-# 10. ✅ Final Conclusion
+## 10. ✅ Final Conclusion
 
 This project successfully analyzed and modeled a large sales dataset, offering valuable insights into sales performance and profitability across different regions and item types. Ensemble models such as Random Forest and Gradient Boosting delivered outstanding performance, achieving perfect classification accuracy. However, such results should be interpreted with caution due to potential overfitting and the absence of cross-validation.
 
