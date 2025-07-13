@@ -12,21 +12,21 @@ Rows: 10,000 Columns: 14
 
 📌 Column Descriptions:
 
-Column - Description 
-Region - Sales region 
-Country - Country where the sale occurred 
-Item Type - Type of item sold 
-Sales Channel - Online or Offline sales 
-Order Priority- Priority level (L, M, H, C) 
-Order Date - Date when order was placed 
-Order ID - Unique order identifier 
-Ship Date - Date when order was shipped 
-Units Sold - Number of units sold 
-Unit Price - Selling price per unit 
-Unit Cost - Cost per unit 
-Total Revenue - Total revenue = Units Sold × Unit Price 
-Total Cost - Total cost = Units Sold × Unit Cost 
-Total Profit - Total profit = Total Revenue - Total Cost
+1.Column - Description 
+2.Region - Sales region 
+3.Country - Country where the sale occurred 
+4.Item Type - Type of item sold 
+5.Sales Channel - Online or Offline sales 
+6.Order Priority- Priority level (L, M, H, C) 
+7.Order Date - Date when order was placed 
+8.Order ID - Unique order identifier 
+9.Ship Date - Date when order was shipped 
+10.Units Sold - Number of units sold 
+11.Unit Price - Selling price per unit 
+12.Unit Cost - Cost per unit 
+13.Total Revenue - Total revenue = Units Sold × Unit Price 
+14.Total Cost - Total cost = Units Sold × Unit Cost 
+15.Total Profit - Total profit = Total Revenue - Total Cost
 
 ## 2. 🔍 Data Preprocessing
 
