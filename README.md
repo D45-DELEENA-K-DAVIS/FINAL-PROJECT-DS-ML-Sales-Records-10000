@@ -2,7 +2,7 @@
 
 📊 Final Project Report: Sales Data Analysis 
 📝 Project Title: Exploratory Data Analysis and Predictive Modeling on Global Sales Records
-# 1. 📁 Dataset Overview
+## 1. 📁 Dataset Overview
 
 The dataset contains 10,000 sales records across various regions, countries, and item types. It includes details such as order dates, sales channels, units sold, pricing, revenue, costs, and profits.
 
